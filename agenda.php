@@ -1,7 +1,7 @@
 <?php
 
 /*
-Open/Closed Principle (OCP): Software entities (classes, modules, functions) should be open for extension but closed for modification.
+Liskov Substitution Principle (LSP):Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
 
 
 

@@ -1,9 +1,8 @@
 <?php
-include "discount.php";
-class FixedDiscount implements Discount
+class FixedDiscount implements DiscountInterface
 {
     public function calculate($amount)
     {
-        return $amount -20;
+        return $amount - 20;
     }
 }

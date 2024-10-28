@@ -1,9 +1,9 @@
 <?php
-include "Discount.php";
-class PercentageDiscount implements Discount
+
+class PercentageDiscount implements DiscountInterface
 {
     public function calculate($amount)
     {
-        return $amount*0.10;
+        return $amount * 0.10;
     }
 }

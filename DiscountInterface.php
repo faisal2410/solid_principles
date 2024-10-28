@@ -1,6 +1,6 @@
 <?php
 
-interface Discount
+interface DiscountInterface
 {
     public function calculate($amount);
 }
